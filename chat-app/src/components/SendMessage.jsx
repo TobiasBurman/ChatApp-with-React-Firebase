@@ -6,8 +6,8 @@ import {addDoc, collection, serverTimestamp} from 'firebase/firestore'
 
 const style = {
   form: "h-14 w-full max-w[728px] flex text-xl absolute bottom-0 sticky ",
-  input: "w-full text-xl p-3 bg-gray-900 text-white outline-none border-none",
-  button: "w-[20%] bg-green-500",
+  input: "w-full text-xl p-3 bg-gray-900 text-white outline-none border-none font-monse",
+  button: "w-[20%] bg-red-500 px-2 py-2 font-monse text-white font-extrabold ",
 };
 
 const SendMessage = ({scroll}) => {

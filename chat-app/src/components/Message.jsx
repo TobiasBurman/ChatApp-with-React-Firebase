@@ -12,7 +12,7 @@ const Message = ({ message }) => {
   const messageClass =
     message.uid === auth.currentUser.uid
       ? `${style.sent}`
-      : `${style.received}`
+      : `${style.received}`;
 
   return (
     <div>

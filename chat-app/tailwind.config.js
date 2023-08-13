@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        boreal: "'Borel', cursive",
+        monse: "'Montserrat', sans-serif",
+        raj: "'Rajdhani', sans-serif",
+      }
+    },
   },
   plugins: [],
 }
